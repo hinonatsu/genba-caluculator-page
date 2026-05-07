@@ -231,7 +231,7 @@ export default function CSVUpload({ onCSVLoaded, validateResult }: Props) {
             <code className="block bg-blue-100 px-2 py-1 rounded font-mono">
               社員番号,社員名,日付,有休区分,出社時刻,退社時刻,休憩開始1,休憩終了1,...
             </code>
-            <p className="mt-1 text-blue-600">休憩は最大3セット対応</p>
+            <p className="mt-1 text-blue-600">休憩は何セットでも対応（休憩開始1,休憩終了1,休憩開始2,… と連番で追加可）</p>
           </div>
         </div>
       </div>
